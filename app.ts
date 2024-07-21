@@ -9,7 +9,6 @@ const GetResult = (): void => {
   name1 = name1.trim().toLocaleLowerCase();
   name2 = name2.trim().toLocaleLowerCase();
 
-  console.log(name2.length);
   if (name1.length == 0) {
     alert("First person name is empty !");
   } else if (name2.length == 0) {
